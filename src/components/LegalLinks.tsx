@@ -8,7 +8,7 @@ export const LegalLinks = ({
   return (
     <div
       {...props}
-      className={`text-2xs items-center justify-center gap-2 font-medium text-gray-500 lg:text-xs ${className}`}
+      className={`items-center justify-center gap-2 text-2xs font-medium text-gray-500 lg:text-xs ${className}`}
     >
       <Link href="https://fuerst.one" className="hover:underline">
         &copy; {new Date().getFullYear()} https://fuerst.one
@@ -23,7 +23,7 @@ export const LegalLinks = ({
       <Link href="https://fuerst.one/impressum" className="hover:underline">
         imprint
       </Link>
-      <Link href="https://fuerst.one/impressum" className="hover:underline">
+      <Link href="https://fuerst.one/datenschutz" className="hover:underline">
         privacy policy
       </Link>
     </div>
