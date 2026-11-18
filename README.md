@@ -58,9 +58,9 @@ Open [127.0.0.1:6860](http://127.0.0.1:6860). The development port is configured
 
 ## Spotify access and project scope
 
-The hosted application includes a **Request Access** link. A Spotify application in development mode requires users to be allowlisted; available endpoints and quotas depend on Spotify's current application policy. See [Spotify quota modes](https://developer.spotify.com/documentation/web-api/concepts/quota-modes). A reachable landing page does not establish that every visitor can authenticate or load playlists.
+The hosted application includes a **Request Access** link. A Spotify application in development mode requires users to be allowlisted; available endpoints and quotas depend on Spotify's current application policy. See [Spotify quota modes](https://developer.spotify.com/documentation/web-api/concepts/quota-modes).
 
-This is a personal creative tool. The repository implements playlist browsing, canvas editing, and PNG export; it does not provide cloud-saved compositions or collaborative editing. Account-specific API access and the authenticated workflow need to be checked with an authorized Spotify account.
+This is a personal creative tool. Collage state is held in React context for the current browser session.
 
 ## Source map
 
